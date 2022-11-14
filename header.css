@@ -1,3 +1,4 @@
+
 .searchbar{
     background-color: #f6b431;
     height: 10rem;
@@ -60,5 +61,69 @@ form {
     font-size: 1.5rem;
     /* text-align: center; */
     align-self: center;
+
+
+.header {
+  background-color: #ecedf1;
+  width: 100%;
+  height: 70vh;
+}
+.yellow-header {
+  width: 80%;
+  margin-left: 10%;
+ min-height: 600px;
+  background-color: #f6b431;
+  margin-top: 10vh;
+  margin-right: 0;
+}
+
+.nav {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f6b431;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 80%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+
+  align-items: center;
+  padding: 10px;
+ 
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+
+}
+
+.menu-elem {
+  padding: 20pt;
+  font-size: 0, 5rem;
+}
+
+.hero{
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    color: white;
+}
+
+.hero h2{
+    padding-bottom: 15px;
+    padding-top: 15px;
 
 }

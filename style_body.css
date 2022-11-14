@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  background-color: #ecedf1;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.card-3 {
+  margin: 10px;
+}
+
+.card-body {
+  margin-top: 5%;
+  padding: 0 5%;
+}
+
+.button {
+  display: inline-block;
+  vertical-align: top;
+  padding: 15px 35px;
+  font-family: 'Hammersmith';
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 50px;
+  transition: background .1s linear;
+  /* position: absolute; */
+  /* left: 500px; */
+}
+
+.button:hover {
+  background: #0c81e1;
+  border: none;
+  opacity: 0.9;
+  color: #fff;
+}
+
+.btn1 {
+  background-color: #344d71;
+}
+
+.btn2 {
+  background-color: #e79717;
+}
+
+.img-study {
+  width: 100%;
+}
+
+.card-3-2 {
+  background-color: hsl(0, 0%, 97%);
+}
+
+.ul-card3 {
+  list-style-type: circle;
+  font-size: 1.19em;
+}
+
+.ul-card3 li {
+  line-height: 2.19em;
+  padding-bottom: 0.25rem;
+}
+
+/* li::before {
+  content: circle; 
+  color: yellow;
+  display: inline-block; width: 1em;
+  margin-left: -1em
+} */
+
+.card-3font {
+  font-size: 1.19em;
+  line-height: 2.19em;
+}
