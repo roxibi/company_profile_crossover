@@ -1,0 +1,44 @@
+.nav {
+
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+     background-color: #f6b431;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+  
+  .company-name {
+    color: cyan;
+    padding: 10pt;
+    margin: 0;
+    font-size: 1,5rem;
+    position: relative;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+  
+    align-items: center;
+  
+  }
+  
+  .menu-elem {
+    padding: 5pt;
+    font-size: 0,5rem;
+  }
