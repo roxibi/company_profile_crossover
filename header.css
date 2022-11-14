@@ -1,3 +1,68 @@
+
+.searchbar{
+    background-color: #f6b431;
+    height: 10rem;
+}
+
+.wrapper-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #83959f;
+    margin-left: 13%;
+    
+}
+
+.social-media-icon .icon {
+    padding: 1rem;
+    /* border: solid red 1px; */
+}
+
+.social-media-icon {
+    list-style: none;
+    display: inherit;
+    color: #83959f;
+}
+
+
+form {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.input-search{
+    width: 60%;
+    height: 3.3rem;
+    text-align: end;
+    border: none;
+}
+
+.search-btn {
+    background-color: #de9e20;
+    border: none;
+    padding: 12px;
+}
+
+.search-btn > svg {
+    color: white;
+    /* border:none; */
+}
+
+.form-span {
+    background-color: #344d71;
+    color: white;
+    padding: 14px;
+    width: 20%;
+    font-size: 1.5rem;
+    /* text-align: center; */
+    align-self: center;
+
+
 .header {
   background-color: #ecedf1;
   width: 100%;
@@ -60,4 +125,5 @@
 .hero h2{
     padding-bottom: 15px;
     padding-top: 15px;
+
 }
