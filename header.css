@@ -34,6 +34,7 @@
   list-style-type: none;
 
   align-items: center;
+  padding: 10px;
 }
 
 .navbar a {
@@ -43,6 +44,6 @@
 }
 
 .menu-elem {
-  padding: 5pt;
+  padding: 20pt;
   font-size: 0, 5rem;
 }
