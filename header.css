@@ -61,25 +61,30 @@ form {
     font-size: 1.5rem;
     /* text-align: center; */
     align-self: center;
+}
 
+/* 
+roxi */
 
 .header {
   background-color: #ecedf1;
   width: 100%;
-  height: 70vh;
+  height: fit-content;
+
 }
 .yellow-header {
   width: 80%;
   margin-left: 10%;
- min-height: 600px;
+ 
   background-color: #f6b431;
   margin-top: 10vh;
   margin-right: 0;
+overflow: visible;
 }
 
 .nav {
   box-sizing: border-box;
-  position: absolute;
+
   top: 0;
   left: 0;
   background-color: #f6b431;
@@ -92,23 +97,20 @@ form {
   padding-right: 20%;
 }
 
-
 .navbar {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   list-style-type: none;
-
+margin-left: 10%;
   align-items: center;
   padding: 10px;
- 
 }
 
 .navbar a {
   text-decoration: none;
   color: white;
   text-align: center;
-
 }
 
 .menu-elem {
@@ -116,14 +118,28 @@ form {
   font-size: 0, 5rem;
 }
 
-.hero{
-    display: grid;
-    grid-template-columns: repeat(4,1fr) ;
-    color: white;
+.hero {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  color: white;
 }
 
-.hero h2{
-    padding-bottom: 15px;
-    padding-top: 15px;
+.hero h2 {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
 
+.mountain img {
+  overflow: visible;
+  width: 150%;
+  left: 50%;
+ margin-left: -15%;
+  margin-right: -2%;
+  margin-top: -20vw; 
+  max-width: 100vw;
+  margin-right: 0;
+
+  right: 50%;
+  width: 100vw;
+  height: auto;
 }
