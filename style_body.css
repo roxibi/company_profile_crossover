@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 html {
   box-sizing: border-box;
   background-color: #ecedf1;
@@ -31,11 +37,7 @@ img {
   height: auto;
 }
 
-/* * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-} */
+
 
 .card-3 {
   margin: 10px;
