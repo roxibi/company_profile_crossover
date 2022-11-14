@@ -81,9 +81,6 @@ img {
   background-color: #e79717;
 }
 
-.img-study {
-  width: 100%;
-}
 
 .card-3-2 {
   background-color: hsl(0, 0%, 97%);
@@ -124,3 +121,14 @@ img {
 .img-study {
   padding-bottom: .5rem;
 }
+.img-study .img-star .img-career{
+width: 100%;
+}
+
+.card-body1{
+  background-color: #344d71;
+  padding: 0rem;
+  margin: 0rem;
+  border: .1rem solid #061a36;
+}
+
